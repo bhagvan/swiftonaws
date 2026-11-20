@@ -1,0 +1,5 @@
+% swift --version
+Apple Swift version 6.3 (swift-6.3-RELEASE)
+
+% git --version
+git version 2.48.1
