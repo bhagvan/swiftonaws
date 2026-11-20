@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftonAWS}",
+            "name": "Debug SwiftServerTodos",
+            "target": "SwiftServerTodos",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SwiftServerTodos"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftonAWS}",
+            "name": "Release SwiftServerTodos",
+            "target": "SwiftServerTodos",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SwiftServerTodos"
+        }
+    ]
+}
